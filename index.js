@@ -4,8 +4,8 @@ const FizzbuzzService=require("./lib/services/FizzbuzzService")
 
 const listaExplorers = Reader.readJsonFile("explorers.json")
 console.log(ExplorerService.filterByMission(listaExplorers,"node"))
-console.log(ExplorerService.getAmountOfExplorersByMission(listaExplorers,"java"))
-console.log(ExplorerService.getExplorersUsernamesByMission(listaExplorers,"java"))
+console.log(ExplorerService.getAmountOfExplorersByMission(listaExplorers,"node"))
+console.log(ExplorerService.getExplorersUsernamesByMission(listaExplorers,"node"))
 
 const explorer1 = {name: "Explorer1", score: 1, trick:0}
 console.log(FizzbuzzService.applyValidationInExplorer(explorer1) )// {name: "Explorer1", score: 1, trick: 1} 
