@@ -6,13 +6,17 @@
   "scripts": {
     "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest",
     "linter": "eslint .",
-    "linter-fix":"eslint . --fix",
-    "start": "node index.js"
+    "linter-fix": "eslint . --fix",
+    "start": "node index.js",
+    "server": "node ./lib/server.js"
   },
   "author": "José Ricardo Camacho Camacho",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.14.0",
     "jest": "^26.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
   }
 }

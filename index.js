@@ -7,7 +7,6 @@ console.log(ExplorerService.filterByMission(listaExplorers,"node"));
 console.log(ExplorerService.getAmountOfExplorersByMission(listaExplorers,"node"));
 console.log(ExplorerService.getExplorersUsernamesByMission(listaExplorers,"node"));
 
-const explorersInNodeAndFizzBuzzTrick = explorersInNode.map((explorer) => assignFizzBuzzTrick(explorer));
 
 const explorer1 = {name: "Explorer1", score: 1, trick:0};
 console.log(FizzbuzzService.applyValidationInExplorer(explorer1) );// {name: "Explorer1", score: 1, trick: 1} 
