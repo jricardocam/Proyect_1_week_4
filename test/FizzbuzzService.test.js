@@ -32,3 +32,4 @@ describe("Test para FizzBuzz service",()=>{
         expect(explorerValidation.trick).toBe("FIZZBUZZ");
     });
 });
+
