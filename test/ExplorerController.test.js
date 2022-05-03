@@ -13,3 +13,11 @@ describe("Test para explorerController",()=>{
         expect(explorersInJava).toBe(5);
     });
 });
+
+describe("Test para filtro de explorers Telegram",()=>{
+    test("explorers en Node" ,()=>{
+        const explorerInNode = ExplorerController.getExplorersByMission("node");
+        const responseBot = `${JSON.stringify(explorerInNode)}` ;
+        expect(responseBot).toBeString;
+    });
+});
